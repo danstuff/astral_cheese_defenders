@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ASTRAL CHEESE DEFENDERS</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+
+	</head>
+	<body>
+		<div id="blocker">
+			<div id="instructions">
+                <h1 style="font-size:36px"><b>ASTRAL CHEESE DEFENDERS</b></h1>
+				<h2 style="font-size:26px" class="blink">Click to play</h2>
+				<p>
+					Move: WASD<br/>
+                    Look: MOUSE<br/>
+				    Up: SPACE<br/>
+				    Down: LSHIFT<br/>
+				</p>
+			</div>
+		</div>
+
+        <script type="module">
+			import { Main } from './main.js';
+
+            let main = new Main();
+
+            main.init();
+            main.animate();
+		</script>
+	</body>
+</html>
